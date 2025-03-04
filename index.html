@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure the body takes up the full viewport height */
+            margin: 0; /* Remove default body margin */
+        }
+
+        img {
+            max-width: 90%; /* Adjust as needed for padding from screen edges*/
+            max-height: 90vh; /* Adjust as needed */
+            display: block; /*remove possible tiny space under image*/
+        }
+    </style>
+</head>
+<body>
+    <img src="logo1.png" alt="Centered Image">
+</body>
+</html>
